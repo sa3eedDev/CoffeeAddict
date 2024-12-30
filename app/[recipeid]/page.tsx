@@ -3,7 +3,7 @@ import {  Group, Title , Text, Container, NumberInput, Timeline} from "@mantine/
 
 
 interface Props {
-    params: { recipeid: string}
+    params: Promise<{ recipeid: string}>
 }
 
 interface Recipe{
