@@ -23,8 +23,7 @@ export default function addRecipe(){
       });
 
     const submitForm = (values) =>{
-        console.log(values)
-        const data = fetch(`${process.env.APIURL}/api/allrecipes`, {
+        const data = fetch(`${process.env.NEXT_PUBLIC_APIURL}/api/allrecipes`, {
             method: 'POST',
             headers: {
               'Accept': 'application/json',
