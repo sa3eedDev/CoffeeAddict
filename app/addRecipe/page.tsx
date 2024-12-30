@@ -24,7 +24,7 @@ export default function addRecipe(){
 
     const submitForm = (values) =>{
         console.log(values)
-        const data = fetch("http://localhost:3000/api/allrecipes", {
+        const data = fetch(process.env.PocketBase+"/allrecipes", {
             method: 'POST',
             headers: {
               'Accept': 'application/json',
