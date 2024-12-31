@@ -5,7 +5,7 @@ export function Cards({recipes}) {
   return (
     <Grid>
         {recipes.map((recipe,i)=>(
-            <Grid.Col span={{ base: 12, md: 6, lg: 4 }} key={i}><RecipeCard info={recipe} /></Grid.Col>
+            <Grid.Col span={{ base: 12, md: 6, lg: 2 }} key={i}><RecipeCard info={recipe} /></Grid.Col>
         ))}
 
     </Grid>

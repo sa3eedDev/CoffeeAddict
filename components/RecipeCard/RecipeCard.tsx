@@ -14,7 +14,7 @@ export function RecipeCard({info}) {
       </Card.Section>
 
       <Group justify="space-between" mt="md" mb="xs">
-        <Text fw={500}>{info.title}</Text>
+        <Text fw={700} size='lg'>{info.title}</Text>
       </Group>
 
       <Text size="sm" c="dimmed">

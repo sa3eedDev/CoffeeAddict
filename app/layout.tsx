@@ -66,7 +66,7 @@ export default function RootLayout({ children }: { children: any }) {
       <AppShell.Navbar py="md">          
         <Group>
         <NavLink
-              href="#required-for-focus"
+              href="/addRecipe"
               label="Add Recipe"
               leftSection={<IconLibraryPlus size="1rem" stroke={1.5} />}
             />
